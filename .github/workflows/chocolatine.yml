@@ -39,6 +39,7 @@ jobs:
           run: make clean
 
         - name: Check executables
+          shell: bash
           run: |
             IFS=',' read -ra EXE <<< "$EXECUTABLES"
             for exe in "${EXE[@]}"; do
