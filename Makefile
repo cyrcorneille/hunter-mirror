@@ -24,4 +24,5 @@ re:	$(NAME) fclean
 
 tests_run:
 	@echo "Running tests..."
+	@make all
 	@./fazzbizz
