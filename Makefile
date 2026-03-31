@@ -22,3 +22,6 @@ fclean:	clean
 
 re:	$(NAME) fclean
 
+tests_run:
+	@echo "Running tests..."
+	@fazzbizz
