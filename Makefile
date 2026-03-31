@@ -12,7 +12,7 @@ SRC	=	bizz.c \
 NAME	=	fazzbizz
 
 all:
-	$(CC) -o $(NAME) $(SRC)
+	$(CC) $(SRC) -o $(NAME)
 
 clean:
 	rm -f *~ *.o
