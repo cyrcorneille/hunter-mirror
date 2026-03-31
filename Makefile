@@ -9,10 +9,10 @@ CC =	clang
 
 SRC	=	bizz.c \
 
-NAME	=	FAZZBIZZ
+NAME	=	fazzbizz
 
 all:
-	$(CC) -o fazzbizz $(SRC)
+	$(CC) -o $(NAME) $(SRC)
 
 clean:
 	rm -f *~ *.o
